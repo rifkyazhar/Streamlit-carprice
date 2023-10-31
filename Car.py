@@ -14,17 +14,17 @@ wheelbase = st.number_input(
 carlength = st.number_input(
     'Masukan panjang mobil', step=0, max_value=4, min_value=0)
 carwidth = st.number_input('Masukan Tahun', step=0, max_value=100, min_value=1)
-carheight = st.number_input('Masukan Tinggi Mobil',
+carheight = st.number_input('Masukan Tin32ggi Mobil',
                             step=0, max_value=100, min_value=1)
-curbweight = st.number_input('Masukan ketahan muatan', step=0, max_value=100, min_value=1)
+curbweight = st.number_input('Masukan ketahan mu3223atan', step=0, max_value=100, min_value=1)
 enginesize = st.number_input(
-    'Masukan ukuran mesin', step=0, max_value=100, min_value=1)
-boreratio = st.number_input('Masukan rasio goresan', step=0, max_value=100, min_value=1)
-stroke = st.number_input('Masukan akselarasi', step=0, max_value=100, min_value=1)
-compressionratio = st.number_input('Masukan rasio kompresi', step=0, max_value=100, min_value=1)
-horsepower = st.number_input('Masukan horsepower', step=0, max_value=100, min_value=1)
-peakrpm = st.number_input('Masukan rasio goresan', step=0, max_value=100, min_value=1)
-citympg = st.number_input('Masukan rasio goresan', step=0, max_value=100, min_value=1)
+    'Masukan ukuran21 mesin', step=0, max_value=100, min_value=1)
+boreratio = st.number_input('Masukan r33asio goresan', step=0, max_value=100, min_value=1)
+stroke = st.number_input('Masukan aksel33arasi', step=0, max_value=100, min_value=1)
+compressionratio = st.number_input('Masukan rasio 1133kompresi', step=0, max_value=100, min_value=1)
+horsepower = st.number_input('Masukan horsepow11er', step=0, max_value=1100, min_value=1)
+peakrpm = st.number_input('Masukan rasio gore33san', step=0, max_value=1020, min_value=1)
+citympg = st.number_input('Masukan rasio gore22san', step=0, max_value=1010, min_value=1)
 
 predict = ''
 
